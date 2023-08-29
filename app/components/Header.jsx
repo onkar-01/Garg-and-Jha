@@ -43,28 +43,28 @@ const Header = () => {
     <>
       <div className="header  fixed flex z-10  lg:justify-around w-screen text-white top-3">
         <div className="sidebar  lg:hidden">
-          <div class="menu-btn">
-            <span class="menu-btn__burger"></span>
+          <div className="menu-btn">
+            <span className="menu-btn__burger"></span>
           </div>
-          <nav class="nav">
-            <ul class="menu-nav">
-              <li class="menu-nav__item active">
-                <Link href="/" class="menu-nav__link">
+          <nav className="nav">
+            <ul className="menu-nav">
+              <li className="menu-nav__item active">
+                <Link href="/" className="menu-nav__link">
                   Home
                 </Link>
               </li>
-              <li class="menu-nav__item">
-                <Link href="/about" class="menu-nav__link">
+              <li className="menu-nav__item">
+                <Link href="/about" className="menu-nav__link">
                   About Me
                 </Link>
               </li>
-              <li class="menu-nav__item">
-                <Link href="/news&updates" class="menu-nav__link">
+              <li className="menu-nav__item">
+                <Link href="/news&updates" className="menu-nav__link">
                   News & Update
                 </Link>
               </li>
-              <li class="menu-nav__item">
-                <Link href="/contact-us" class="menu-nav__link">
+              <li className="menu-nav__item">
+                <Link href="/contact-us" className="menu-nav__link">
                   Contact Us
                 </Link>
               </li>

@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import { Bounce } from "react-awesome-reveal";
+import { Bounce } from "react-reveal";
 
 const Title = ({ heading }) => {
   return (
