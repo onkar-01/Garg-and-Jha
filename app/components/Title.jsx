@@ -1,6 +1,6 @@
 import React from "react";
 
-import Bounce from "react-reveal/Bounce";
+import { Bounce } from "react-awesome-reveal";
 
 const Title = ({ heading }) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-const link = ({ href, name }) => {
+const Link_second = ({ href, name }) => {
   return (
     <Link href={href} className="link">
       <span>{name}</span>
@@ -9,4 +9,4 @@ const link = ({ href, name }) => {
   );
 };
 
-export default link;
+export default Link_second;

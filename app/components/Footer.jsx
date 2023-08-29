@@ -1,5 +1,5 @@
 import React from "react";
-import Link from "./link";
+import Link_second from "./Link_second";
 
 const Footer = () => {
   return (
@@ -23,10 +23,10 @@ const Footer = () => {
                 </h2>
                 <ul className="text-[#fff] dark:text-gray-400 font-medium">
                   <li className="mb-4">
-                    <Link href="/about" name="About" />
+                    <Link_second href="/about" name="About" />
                   </li>
                   <li>
-                    <Link href="/contact" name="Contact" />
+                    <Link_second href="/contact" name="Contact" />
                   </li>
                 </ul>
               </div>
@@ -36,19 +36,19 @@ const Footer = () => {
                 </h2>
                 <ul className="text-[#fff]  font-medium">
                   <li className="mb-4">
-                    <Link
+                    <Link_second
                       href="https://www.facebook.com/gargandjha"
                       name="Facebook"
                     />
                   </li>
                   <li className="mb-4">
-                    <Link
+                    <Link_second
                       href="https://www.instagram.com/gargandjha"
                       name="Instagram"
                     />
                   </li>
                   <li>
-                    <Link
+                    <Link_second
                       href="https://www.instagram.com/gargandjha"
                       name="Twitter"
                     />
@@ -61,10 +61,13 @@ const Footer = () => {
                 </h2>
                 <ul className="text-[#fff]  font-medium">
                   <li className="mb-4">
-                    <Link href="/privacy-policy" name="Privacy Policy" />
+                    <Link_second href="/privacy-policy" name="Privacy Policy" />
                   </li>
                   <li>
-                    <Link href="/termsandcondition" name="Terms & Condition" />
+                    <Link_second
+                      href="/termsandcondition"
+                      name="Terms & Condition"
+                    />
                   </li>
                 </ul>
               </div>

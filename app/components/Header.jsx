@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
-import Link from "./link";
+import Link_second from "./Link_second";
 import Button from "./Button";
+import Link from "next/link";
 
 import Bounce from "react-reveal/Bounce";
 const Header = () => {
@@ -48,24 +49,24 @@ const Header = () => {
           <nav class="nav">
             <ul class="menu-nav">
               <li class="menu-nav__item active">
-                <a href="index.html" class="menu-nav__link">
+                <Link href="/" class="menu-nav__link">
                   Home
-                </a>
+                </Link>
               </li>
               <li class="menu-nav__item">
-                <a href="about.html" class="menu-nav__link">
+                <Link href="/about" class="menu-nav__link">
                   About Me
-                </a>
+                </Link>
               </li>
               <li class="menu-nav__item">
-                <a href="Projects.html" class="menu-nav__link">
-                  My Projects
-                </a>
+                <Link href="/news&updates" class="menu-nav__link">
+                  News & Update
+                </Link>
               </li>
               <li class="menu-nav__item">
-                <a href="index.html" class="menu-nav__link">
-                  Contact Me
-                </a>
+                <Link href="/contact-us" class="menu-nav__link">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </nav>
@@ -83,10 +84,10 @@ const Header = () => {
           </div>
         </Bounce>
         <div className="hidden w-[0px] md:w-full md:links lg:flex md:gap-x-5 md:justify-center md:items-center">
-          <Link href="/" name="HOME" />
-          <Link href="/about" name="ABOUT" />
-          <Link href="/news&updates" name="NEWS & UPDATES" />
-          <Link href="/contact" name="CONTACT" />
+          <Link_second href="/" name="HOME" />
+          <Link_second href="/about" name="ABOUT" />
+          <Link_second href="/news&updates" name="NEWS & UPDATES" />
+          <Link_second href="/contact-us" name="CONTACT US" />
         </div>
 
         {/* <Link href="tel:+91-9999999999" name="+91 9006005081" /> */}
