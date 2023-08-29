@@ -1,6 +1,8 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+
 import {
   SlSocialFacebook,
   SlSocialTwitter,
@@ -12,10 +14,12 @@ const TeamProfileCard = () => {
     <div className="rounded-lg">
       <div className="w-full max-w-sm bg-[#000]  gradient_effect border-2 my-10   border-[#c08e02] shadow dark:bg-gray-800 dark:border-gray-700">
         <div className="flex flex-col items-center px-10 py-10">
-          <img
+          <Image
             className="w-24 h-24 mb-3 rounded-full shadow-lg"
             src="/onkar.jpg"
             alt="profile image"
+            height={100}
+            width={100}
           />
           <h5 className="mb-1 text-xl font-medium text-white">Onkar Vatsa</h5>
           <span className="text-sm text-gray-500 dark:text-gray-400">
