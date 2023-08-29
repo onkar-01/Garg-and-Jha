@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import FormContainer from "./FormContainer";
 import Input from "./Input";

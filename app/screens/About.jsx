@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import Hero from "../components/RestPageHero";
-import { Bounce } from "react-awesome-reveal";
-import Mid_Section from "../components/Mid_Section";
 import AboutUs from "../components/AboutUs";
 import TeamProfileCard from "../components/TeamProfileCard";
 import Title from "../components/Title";

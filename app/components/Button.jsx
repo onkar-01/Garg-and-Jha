@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BsFillTelephoneForwardFill } from "react-icons/bs";
 

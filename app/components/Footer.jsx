@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Link_second from "./Link_second";
 

@@ -3,7 +3,6 @@
 import React, { useEffect, useState } from "react";
 import { GetInTouch } from "../components/GetInTouch";
 import SpeedDial from "../components/SpeedDial";
-import { BsChevronDoubleDown } from "react-icons/bs";
 
 const images = ["home.png", "home2.png", "home3.png"];
 

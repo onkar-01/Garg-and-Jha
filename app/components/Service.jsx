@@ -1,11 +1,9 @@
 "use client";
 import React from "react";
 import { WiTime12 } from "react-icons/wi";
-import { TbHomeOff } from "react-icons/tb";
-import { HiOutlineCurrencyRupee } from "react-icons/hi";
+import { TbHomeOff, TbSettingsDown } from "react-icons/tb";
 import { PiCurrencyCircleDollar } from "react-icons/pi";
 import { MdFreeCancellation, MdSubtitlesOff } from "react-icons/md";
-import { TbSettingsDown } from "react-icons/tb";
 
 const Service = ({ name, icon, state }) => {
   return (

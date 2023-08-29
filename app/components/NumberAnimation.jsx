@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from "react"; // Create this CSS file to style the component
 
 const NumberAnimation = ({ state }) => {
