@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import Title from "../components/Title";
 import ContactUs from "../components/ContactUs";
-import MapComponent from "../components/Map";
 
 const Contact = () => {
   return (
@@ -24,9 +23,7 @@ const Contact = () => {
         <div className="form-container w-[100%] ">
           <ContactUs />
         </div>
-        <div className="map-container w-[100%] ">
-          <MapComponent />
-        </div>
+        <div className="map-container w-[100%] "></div>
       </div>
     </>
   );
