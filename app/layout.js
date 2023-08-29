@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import "./styles/globals.scss";
 import "animate.css";
-import AnimatedCursor from "react-animated-cursor";
 import { Inter } from "next/font/google";
 import Footer from "./components/Footer";
 
