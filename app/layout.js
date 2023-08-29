@@ -14,9 +14,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
-      </head>
       <body className={inter.className}>
         <link
           rel="stylesheet"
@@ -25,6 +22,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
       </body>
     </html>
   );
