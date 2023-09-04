@@ -33,8 +33,14 @@ const Footer = () => {
                   <li className="mb-4">
                     <Link_second href="/about" name="About" />
                   </li>
-                  <li>
+                  <li className="mb-4">
                     <Link_second href="/contact" name="Contact" />
+                  </li>
+                  <li>
+                    <Link_second
+                      href="/termsandcondition"
+                      name="Terms & Condition"
+                    />
                   </li>
                 </ul>
               </div>
@@ -71,11 +77,8 @@ const Footer = () => {
                   <li className="mb-4">
                     <Link_second href="/privacy-policy" name="Privacy Policy" />
                   </li>
-                  <li>
-                    <Link_second
-                      href="/termsandcondition"
-                      name="Terms & Condition"
-                    />
+                  <li className="mb-4">
+                    <Link_second href="/admin/login" name="Continue" />
                   </li>
                 </ul>
               </div>

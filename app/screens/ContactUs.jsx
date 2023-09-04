@@ -20,11 +20,11 @@ const Contact = () => {
           <Title heading="Contact Us" />
         </div>
       </div>
-      <div className="contact-container my-10 lg:space-x-5 mx-auto w-[95%] lg:flex">
+      <div className="contact-container my-10 lg:space-x-5 mx-auto w-[95%] flex flex-col md:flex-row ">
         <div className="form-container w-[100%] ">
           <ContactUs />
         </div>
-        <div className="map-container w-[100%] ">
+        <div className="map-container w-[100%] h-[500px] md:h-[600px] ">
           <MapComponent />
         </div>
       </div>
