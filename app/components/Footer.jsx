@@ -3,10 +3,11 @@ import React from "react";
 import Link_second from "./Link_second";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter, usePathname } from "next/navigation";
 
-const Footer = () => {
+const FooterOne = () => {
   return (
-    <div className="border-t-2 w-[95%] mx-auto border-[#c08e02]">
+    <div className="border-t-2 w-[95%]  mx-auto border-[#c08e02]">
       <footer className="bg-[#000]">
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
           <div className="md:flex md:justify-between">
@@ -191,6 +192,14 @@ const Footer = () => {
       </footer>
     </div>
   );
+};
+
+const Footer = () => {
+  const pathname = usePathname();
+  const withoutfooter = pathname.search("/admin");
+  if (withoutfooter < 0) {
+    return <FooterOne />;
+  }
 };
 
 export default Footer;

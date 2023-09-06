@@ -26,12 +26,13 @@ const ContactUs = () => {
             phone: "",
             concern: "",
           });
-        } else {
-          toast.error(res.statusText);
+        } else if(res.status === 406) {
+          toast.error("Please fill all the fields");
         }
       });
     } catch (err) {
       console.log(err);
+      toast.error(err);
     }
   };
 
